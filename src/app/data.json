@@ -1,0 +1,422 @@
+[
+    {
+        "id": 1,
+        "title": "Web Designer/Developer",
+        "salary": "10000 - 25000",
+        "location": "Kerela",
+        "company": "Websorbz Pvt Ltd",
+        "details": {
+            "resposblities": [
+                "Assist in the development of new and existing websites.",
+                "Write clean, well-documented code using HTML, CSS, Bootstrap, JavaScript etc",
+                "Collaborate with designers and other developers to understand project requirements and specifications",
+                "Stay up-to-date on the latest web development trends and technologies"
+            ],
+            "qualifications": [
+                "Basic familiarity with HTML5, CSS3, Javascript (a plus)",
+                "Those who have already completed internship are not eligible for this internship",
+                "Those who are looking for a job are not eligible for this internship"
+            ],
+            "benefits": [
+                "Work from home (Mon-Fri)",
+                "Access to paid Udemy courses for web development",
+                "Be part of a dynamic and collaborative team",
+                "Opportunity to work in live projects within the company"
+            ],
+            "schedule": "Monday - Friday",
+            "type": "full time",
+            "education": ["Diplomo", "Bachalor's", "Master" , "Any Degree"],
+            "experience": "Fresher"
+        }
+    },
+    {
+        "id": 2,
+        "title": "Python Developer",
+        "salary": "15000 - 20000",
+        "location": "Coimbatore",
+        "company": "jv Pvt Ltd",
+        "details": {
+            "resposblities": [
+                "Assist in the development of new and existing websites.",
+                "Write clean, well-documented code using HTML, CSS, Bootstrap, JavaScript etc",
+                "Collaborate with designers and other developers to understand project requirements and specifications",
+                "Stay up-to-date on the latest web development trends and technologies"
+            ],
+            "qualifications": [
+                "Basic familiarity with HTML5, CSS3, Javascript (a plus)",
+                "Those who have already completed internship are not eligible for this internship",
+                "Those who are looking for a job are not eligible for this internship"
+            ],
+            "benefits": [
+                "Work from home (Mon-Fri)",
+                "Access to paid Udemy courses for web development",
+                "Be part of a dynamic and collaborative team",
+                "Opportunity to work in live projects within the company"
+            ],
+            "schedule": "Monday - Friday",
+            "type": "full time",
+            "education": ["Diplomo", "Bachalor's", "Master" , "Any Degree"],
+            "experience": "2 years"
+        }
+    },
+    {
+        "id": 3,
+        "title": "Web Developer",
+        "salary": "5000",
+        "location": "Coimbatore",
+        "company": "Yhorbz Pvt Ltd",
+        "details": {
+            "resposblities": [
+                "Assist in the development of new and existing websites.",
+                "Write clean, well-documented code using HTML, CSS, Bootstrap, JavaScript etc",
+                "Collaborate with designers and other developers to understand project requirements and specifications",
+                "Stay up-to-date on the latest web development trends and technologies"
+            ],
+            "qualifications": [
+                "Basic familiarity with HTML5, CSS3, Javascript (a plus)",
+                "Those who have already completed internship are not eligible for this internship",
+                "Those who are looking for a job are not eligible for this internship"
+            ],
+            "benefits": [
+                "Work from home (Mon-Fri)",
+                "Access to paid Udemy courses for web development",
+                "Be part of a dynamic and collaborative team",
+                "Opportunity to work in live projects within the company"
+            ],
+            "schedule": "Monday - Friday",
+            "type": "full time",
+            "education": ["Diplomo", "Bachalor's", "Master" , "Any Degree"],
+            "experience": "2 years"
+        }
+    },
+    {
+        "id": 4,
+        "title": "React Developer",
+        "salary": "20000 - 25000",
+        "location": "Bangalore",
+        "company": "Websorbz Pvt Ltd",
+        "details": {
+            "resposblities": [
+                "Assist in the development of new and existing websites.",
+                "Write clean, well-documented code using HTML, CSS, Bootstrap, JavaScript etc",
+                "Collaborate with designers and other developers to understand project requirements and specifications",
+                "Stay up-to-date on the latest web development trends and technologies"
+            ],
+            "qualifications": [
+                "Basic familiarity with HTML5, CSS3, Javascript (a plus)",
+                "Those who have already completed internship are not eligible for this internship",
+                "Those who are looking for a job are not eligible for this internship"
+            ],
+            "benefits": [
+                "Work from home (Mon-Fri)",
+                "Access to paid Udemy courses for web development",
+                "Be part of a dynamic and collaborative team",
+                "Opportunity to work in live projects within the company"
+            ],
+            "schedule": "Monday - Friday",
+            "type": "full time",
+            "education": ["Diplomo", "Bachalor's", "Master" , "Any Degree"],
+            "experience": "1 years"
+        }
+    },
+    {
+        "id": 5,
+        "title": "node Developer",
+        "salary": "8000 - 15000",
+        "location": "Chennai",
+        "company": "KJBK Ltd",
+        "details": {
+            "resposblities": [
+                "Assist in the development of new and existing websites.",
+                "Write clean, well-documented code using HTML, CSS, Bootstrap, JavaScript etc",
+                "Collaborate with designers and other developers to understand project requirements and specifications",
+                "Stay up-to-date on the latest web development trends and technologies"
+            ],
+            "qualifications": [
+                "Basic familiarity with HTML5, CSS3, Javascript (a plus)",
+                "Those who have already completed internship are not eligible for this internship",
+                "Those who are looking for a job are not eligible for this internship"
+            ],
+            "benefits": [
+                "Work from home (Mon-Fri)",
+                "Access to paid Udemy courses for web development",
+                "Be part of a dynamic and collaborative team",
+                "Opportunity to work in live projects within the company"
+            ],
+            "schedule": "Monday - Friday",
+            "type": "full time",
+            "education": ["Diplomo", "Bachalor's", "Master" , "Any Degree"],
+            "experience": "1 years"
+        }
+    },
+    {
+        "id": 6,
+        "title": "node Developer",
+        "salary": "20000 - 25000",
+        "location": "Coimbatore",
+        "company": "Rock Pvt Ltd",
+        "details": {
+            "resposblities": [
+                "Assist in the development of new and existing websites.",
+                "Write clean, well-documented code using HTML, CSS, Bootstrap, JavaScript etc",
+                "Collaborate with designers and other developers to understand project requirements and specifications",
+                "Stay up-to-date on the latest web development trends and technologies"
+            ],
+            "qualifications": [
+                "Basic familiarity with HTML5, CSS3, Javascript (a plus)",
+                "Those who have already completed internship are not eligible for this internship",
+                "Those who are looking for a job are not eligible for this internship"
+            ],
+            "benefits": [
+                "Work from home (Mon-Fri)",
+                "Access to paid Udemy courses for web development",
+                "Be part of a dynamic and collaborative team",
+                "Opportunity to work in live projects within the company"
+            ],
+            "schedule": "Monday - Friday",
+            "type": "full time",
+            "education": ["Diplomo", "Bachalor's", "Master" , "Any Degree"],
+            "experience": "fresher"
+        }
+    },
+    {
+        "id": 7,
+        "title": "React Developer",
+        "salary": "20000 - 25000",
+        "location": "Bangalore",
+        "company": "Koda Pvt Ltd",
+        "details": {
+            "resposblities": [
+                "Assist in the development of new and existing websites.",
+                "Write clean, well-documented code using HTML, CSS, Bootstrap, JavaScript etc",
+                "Collaborate with designers and other developers to understand project requirements and specifications",
+                "Stay up-to-date on the latest web development trends and technologies"
+            ],
+            "qualifications": [
+                "Basic familiarity with HTML5, CSS3, Javascript (a plus)",
+                "Those who have already completed internship are not eligible for this internship",
+                "Those who are looking for a job are not eligible for this internship"
+            ],
+            "benefits": [
+                "Work from home (Mon-Fri)",
+                "Access to paid Udemy courses for web development",
+                "Be part of a dynamic and collaborative team",
+                "Opportunity to work in live projects within the company"
+            ],
+            "schedule": "Monday - Friday",
+            "type": "full time",
+            "education": ["Diplomo", "Bachalor's", "Master" , "Any Degree"],
+            "experience": "fresher"
+        }
+    },
+    {
+        "id": 8,
+        "title": "Python Developer",
+        "salary": "10000 - 13000",
+        "location": "Chennai",
+        "company": "Websorbz Pvt Ltd",
+        "details": {
+            "resposblities": [
+                "Assist in the development of new and existing websites.",
+                "Write clean, well-documented code using HTML, CSS, Bootstrap, JavaScript etc",
+                "Collaborate with designers and other developers to understand project requirements and specifications",
+                "Stay up-to-date on the latest web development trends and technologies"
+            ],
+            "qualifications": [
+                "Basic familiarity with HTML5, CSS3, Javascript (a plus)",
+                "Those who have already completed internship are not eligible for this internship",
+                "Those who are looking for a job are not eligible for this internship"
+            ],
+            "benefits": [
+                "Work from home (Mon-Fri)",
+                "Access to paid Udemy courses for web development",
+                "Be part of a dynamic and collaborative team",
+                "Opportunity to work in live projects within the company"
+            ],
+            "schedule": "Monday - Friday",
+            "type": "full time",
+            "education": ["Diplomo", "Bachalor's", "Master" , "Any Degree"],
+            "experience": "5 years"
+        }
+    },
+    {
+        "id": 9,
+        "title": "AWS Developer",
+        "salary": "150000 - 250000",
+        "location": "Bangalore",
+        "company": "Websorbz Pvt Ltd",
+        "details": {
+            "resposblities": [
+                "Assist in the development of new and existing websites.",
+                "Write clean, well-documented code using HTML, CSS, Bootstrap, JavaScript etc",
+                "Collaborate with designers and other developers to understand project requirements and specifications",
+                "Stay up-to-date on the latest web development trends and technologies"
+            ],
+            "qualifications": [
+                "Basic familiarity with HTML5, CSS3, Javascript (a plus)",
+                "Those who have already completed internship are not eligible for this internship",
+                "Those who are looking for a job are not eligible for this internship"
+            ],
+            "benefits": [
+                "Work from home (Mon-Fri)",
+                "Access to paid Udemy courses for web development",
+                "Be part of a dynamic and collaborative team",
+                "Opportunity to work in live projects within the company"
+            ],
+            "schedule": "Monday - Friday",
+            "type": "full time",
+            "education": ["Diplomo", "Bachalor's", "Master" , "Any Degree"],
+            "experience": "8 years"
+        }
+    },
+    {
+        "id": 10,
+        "title": "Full Stack Developer",
+        "salary": "100000 - 150000",
+        "location": "Chennai",
+        "company": "Websorbz Pvt Ltd",
+        "details": {
+            "resposblities": [
+                "Assist in the development of new and existing websites.",
+                "Write clean, well-documented code using HTML, CSS, Bootstrap, JavaScript etc",
+                "Collaborate with designers and other developers to understand project requirements and specifications",
+                "Stay up-to-date on the latest web development trends and technologies"
+            ],
+            "qualifications": [
+                "Basic familiarity with HTML5, CSS3, Javascript (a plus)",
+                "Those who have already completed internship are not eligible for this internship",
+                "Those who are looking for a job are not eligible for this internship"
+            ],
+            "benefits": [
+                "Work from home (Mon-Fri)",
+                "Access to paid Udemy courses for web development",
+                "Be part of a dynamic and collaborative team",
+                "Opportunity to work in live projects within the company"
+            ],
+            "schedule": "Monday - Friday",
+            "type": "full time",
+            "education": ["Diplomo", "Bachalor's", "Master" , "Any Degree"],
+            "experience": "5 years"
+        }
+    },
+    {
+        "id": 11,
+        "title": "React Developer",
+        "salary": "20000 - 25000",
+        "location": "Chennai",
+        "company": "Websorbz Pvt Ltd",
+        "details": {
+            "resposblities": [
+                "Assist in the development of new and existing websites.",
+                "Write clean, well-documented code using HTML, CSS, Bootstrap, JavaScript etc",
+                "Collaborate with designers and other developers to understand project requirements and specifications",
+                "Stay up-to-date on the latest web development trends and technologies"
+            ],
+            "qualifications": [
+                "Basic familiarity with HTML5, CSS3, Javascript (a plus)",
+                "Those who have already completed internship are not eligible for this internship",
+                "Those who are looking for a job are not eligible for this internship"
+            ],
+            "benefits": [
+                "Work from home (Mon-Fri)",
+                "Access to paid Udemy courses for web development",
+                "Be part of a dynamic and collaborative team",
+                "Opportunity to work in live projects within the company"
+            ],
+            "schedule": "Monday - Friday",
+            "type": "full time",
+            "education": ["Diplomo", "Bachalor's", "Master" , "Any Degree"],
+            "experience": "1 years"
+        }
+    },
+    {
+        "id": 12,
+        "title": "React Developer",
+        "salary": "20000 - 25000",
+        "location": "Coimbatore",
+        "company": "Websorbz Pvt Ltd",
+        "details": {
+            "resposblities": [
+                "Assist in the development of new and existing websites.",
+                "Write clean, well-documented code using HTML, CSS, Bootstrap, JavaScript etc",
+                "Collaborate with designers and other developers to understand project requirements and specifications",
+                "Stay up-to-date on the latest web development trends and technologies"
+            ],
+            "qualifications": [
+                "Basic familiarity with HTML5, CSS3, Javascript (a plus)",
+                "Those who have already completed internship are not eligible for this internship",
+                "Those who are looking for a job are not eligible for this internship"
+            ],
+            "benefits": [
+                "Work from home (Mon-Fri)",
+                "Access to paid Udemy courses for web development",
+                "Be part of a dynamic and collaborative team",
+                "Opportunity to work in live projects within the company"
+            ],
+            "schedule": "Monday - Friday",
+            "type": "full time",
+            "education": ["Diplomo", "Bachalor's", "Master" , "Any Degree"],
+            "experience": "1 years"
+        }
+    },
+    {
+        "id": 13,
+        "title": "React Developer",
+        "salary": "20000 - 25000",
+        "location": "Bangalore",
+        "company": "Websorbz Pvt Ltd",
+        "details": {
+            "resposblities": [
+                "Assist in the development of new and existing websites.",
+                "Write clean, well-documented code using HTML, CSS, Bootstrap, JavaScript etc",
+                "Collaborate with designers and other developers to understand project requirements and specifications",
+                "Stay up-to-date on the latest web development trends and technologies"
+            ],
+            "qualifications": [
+                "Basic familiarity with HTML5, CSS3, Javascript (a plus)",
+                "Those who have already completed internship are not eligible for this internship",
+                "Those who are looking for a job are not eligible for this internship"
+            ],
+            "benefits": [
+                "Work from home (Mon-Fri)",
+                "Access to paid Udemy courses for web development",
+                "Be part of a dynamic and collaborative team",
+                "Opportunity to work in live projects within the company"
+            ],
+            "schedule": "Monday - Friday",
+            "type": "full time",
+            "education": ["Diplomo", "Bachalor's", "Master" , "Any Degree"],
+            "experience": "1 years"
+        }
+    },
+    {
+        "id": 14,
+        "title": "React Developer",
+        "salary": "20000 - 25000",
+        "location": "Bangalore",
+        "company": "Websorbz Pvt Ltd",
+        "details": {
+            "resposblities": [
+                "Assist in the development of new and existing websites.",
+                "Write clean, well-documented code using HTML, CSS, Bootstrap, JavaScript etc",
+                "Collaborate with designers and other developers to understand project requirements and specifications",
+                "Stay up-to-date on the latest web development trends and technologies"
+            ],
+            "qualifications": [
+                "Basic familiarity with HTML5, CSS3, Javascript (a plus)",
+                "Those who have already completed internship are not eligible for this internship",
+                "Those who are looking for a job are not eligible for this internship"
+            ],
+            "benefits": [
+                "Work from home (Mon-Fri)",
+                "Access to paid Udemy courses for web development",
+                "Be part of a dynamic and collaborative team",
+                "Opportunity to work in live projects within the company"
+            ],
+            "schedule": "Monday - Friday",
+            "type": "full time",
+            "education": ["Diplomo", "Bachalor's", "Master" , "Any Degree"],
+            "experience": "1 years"
+        }
+    }
+]
