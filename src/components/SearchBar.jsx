@@ -1,20 +1,19 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
 import search from "../assets/search.svg"
+import { searchContext } from '../contexts/ContextHook';
+import { useNavigate } from 'react-router-dom';
 
 function SearchBar() {
 
-    const [job, setJob] = useState("")
-    const [location, setLocation] = useState("")
+    const { job, setJob, location, setLocation } = useContext(searchContext)
 
     const onJobChange = (e) => setJob(e.target.value)
     const onLocationChange = (e) => setLocation(e.target.value)
 
+    const navigate = useNavigate()
 
     return (
         <div className='search-bar'>
-            <div>
-                <h1 >" One Search, millions of jobs "</h1>
-            </div>
             <div className='search-form'>
                 <section>
                     <label htmlFor="search">Job Title</label>
@@ -29,7 +28,7 @@ function SearchBar() {
                     <label htmlFor="location">Job Location</label>
                     <input
                         type='text'
-                        placeholder='Job location / Remote'
+                        placeholder='Job location / Any'
                         value={location}
                         onChange={(e) => onLocationChange(e)}
                     />
@@ -37,6 +36,7 @@ function SearchBar() {
                 <section>
                     <button
                         type='button'
+                        onClick={() => navigate("/jobs")}
                     >
                         <img src={search} alt="search-logo" />
                     </button>

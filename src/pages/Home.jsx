@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import SearchBar from '../components/SearchBar';
 import welcomeImg from "../assets/img1.jpg"
 import saveIcon from "../assets/saved-icon.svg"
@@ -6,6 +6,7 @@ import resume from "../assets/resume.svg"
 import searchResume from "../assets/search-resume.svg"
 import correct from "../assets/correct.svg"
 import { useNavigate } from 'react-router-dom';
+import Navbar from '../components/Navbar';
 
 
 function Home() {
@@ -14,7 +15,11 @@ function Home() {
 
     return (
         <div>
+            <Navbar />
             <div className='home-container'>
+                <div>
+                    <h1 className='search-head'>" One Search, millions of jobs "</h1>
+                </div>
                 <SearchBar />
                 <div className='welcome-section'>
                     <section>

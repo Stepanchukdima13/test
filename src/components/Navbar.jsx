@@ -22,11 +22,11 @@ function Navbar() {
                     className="menubar"
                     id={!showmenu ? "" : "active"}
                 >
+                    <li><Link to="/">Home</Link></li>
                     <li><Link to="/jobs">Jobs</Link></li>
-                    <li><Link to="">Locations</Link></li>
                     <li><Link to="">Membership</Link></li>
                     <li><Link to="">Post a Job</Link></li>
-                    <li><Link to="">Guidance</Link></li>
+                    <li><Link to="/policy">Guidance</Link></li>
                 </ul>
             </section>
             <button
