@@ -24,7 +24,7 @@ function JobApplyForm() {
         <>
             <Navbar />
             <div className='register-container'>
-                <h1 className='job-application'>Job Application</h1>
+                <h1 className='job-application'>Заявка на працевлаштування</h1>
                 <form action="post" className='form' onSubmit={() => onApplication()}>
 
                     <section className='form-section'>
@@ -34,7 +34,7 @@ function JobApplyForm() {
                             onChange={(e) => onNameChange(e)}
                             required
                         />
-                        <label htmlFor="Name">Name</label>
+                        <label htmlFor="Name">Ім'я</label>
                     </section>
 
                     <section className='form-section'>
@@ -44,7 +44,7 @@ function JobApplyForm() {
                             onChange={e => onExperienceChange(e)}
                             required
                         />
-                        <label htmlFor="experience">Work Experience</label>
+                        <label htmlFor="experience">Досвід роботи</label>
                     </section>
 
                     <section>
@@ -55,7 +55,7 @@ function JobApplyForm() {
                         type='submit'
                         className='btns'
                     >
-                        Apply Now
+                        Підтвердити
                     </button>
 
                 </form>

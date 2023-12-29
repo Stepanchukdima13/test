@@ -15,18 +15,18 @@ function Navbar() {
         <nav className='navbar'>
             <section className='brand' onClick={() => navigate("/")}>
                 <img src={logo} alt="brand-logo" className='brand-logo' />
-                <span className='brand-title'> Jobsy </span>
+                <span className='brand-title'> Rabota vid Dimasssa </span>
             </section>
             <section>
                 <ul
                     className="menubar"
                     id={!showmenu ? "" : "active"}
                 >
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/jobs">Jobs</Link></li>
-                    <li><Link to="">Membership</Link></li>
-                    <li><Link to="">Post a Job</Link></li>
-                    <li><Link to="/policy">Guidance</Link></li>
+                    <li><Link to="/">Головна</Link></li>
+                    <li><Link to="/jobs">Пошук роботи</Link></li>
+                    <li><Link to="">Сертифікати</Link></li>
+                    <li><Link to="">Додати вакансію</Link></li>
+                    <li><Link to="/policy">Про нас</Link></li>
                 </ul>
             </section>
             <button
@@ -35,7 +35,7 @@ function Navbar() {
                 id={!showmenu ? "" : "btn"}
                 onClick={() => navigate("/register")}
             >
-                Sign Up
+                Реєстрація
             </button>
             <img
                 src={!showmenu ? barsIcon : xIcon}

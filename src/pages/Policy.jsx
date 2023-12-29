@@ -8,96 +8,90 @@ function Policy() {
     return (
         <>
             <div className='privacy-head'>
-                <h1>Privacy Policy</h1>
+                <h1>Політика конфіденційності</h1>
             </div>
             <div className='policy-container'>
                 <ul className='about-us-section'>
-                    <li> <a href='#about-us' >About us</a></li>
-                    <li> <a href='#privacy-rules' >Privacy Rules</a></li>
-                    <li> <a href='#cookie-policy' >Cookie Policy</a></li>
-                    <li> <a href='#terms-and-use' >Terms and use</a></li>
-                    <li> <a href='#job-rules' >Job Posting Rules</a></li>
-                    <li> <a href='#contact-us' >Contact us</a></li>
+                    <li> <a href='#about-us' >Про нас</a></li>
+                    <li> <a href='#privacy-rules' >Правила приватності</a></li>
+                    <li> <a href='#cookie-policy' >Cookie</a></li>
+                    <li> <a href='#terms-and-use' >Умови та використання</a></li>
+                    <li> <a href='#job-rules' >Правила розміщення вакансій</a></li>
+                    <li> <a href='#contact-us' >Зв'яжіться з нами</a></li>
                 </ul>
                 <div className='policy-details'>
                     <section id='about-us'>
-                        <h1>Welcome</h1>
-                        <p>We are thrilled to welcome you to the ultimate destination for your career journey. Whether you're a seasoned professional seeking new challenges or a recent graduate embarking on your career path, [Your Job Searching Site Name] is here to guide you every step of the way.</p>
-                        <h4>Discover Opportunities:</h4>
-                        <p>Unlock a world of career possibilities by exploring a diverse range of job opportunities tailored to your skills, interests, and aspirations. Our platform connects you with top employers, helping you find the perfect match for your talents</p>
-                        <h4>Your Success, Our Mission:</h4>
-                        <p>Our mission is to be your trusted partner in your career journey. From the first step of your job search to celebrating your achievements, we are here to support you. Your success is not just a destination; it's a journey we embark on together.Start your exciting career adventure with [Your Job Searching Site Name]. We're here to help you turn your aspirations into reality. Welcome aboard!</p>
-                        <button className='btn' onClick={() => navigate("/")}>Jobsy</button>
+                        <h1>Вітаємо</h1>
+                        <p>Ми раді вітати вас у кінцевому пункті вашої кар'єрної подорожі. Незалежно від того, чи ви досвідчений професіонал, який шукає нових викликів, чи нещодавній випускник, який розпочинає свій кар'єрний шлях, даний сайт допоможе вам на кожному кроці.</p>
+                        <h4>Відкрийте для себе нові можливості:</h4>
+                        <p>Відкрийте для себе світ кар'єрних можливостей, досліджуючи різноманітні вакансії, що відповідають вашим навичкам, інтересам та прагненням. Наша платформа з'єднує вас з найкращими роботодавцями, допомагаючи знайти ідеальну роботу, що відповідає вашим талантам</p>
+                        <h4>Ваш успіх, наша місія:</h4>
+                        <p>Наша місія - бути вашим надійним партнером на вашому кар'єрному шляху. Від першого кроку пошуку роботи до святкування ваших досягнень - ми тут, щоб підтримати вас. Ваш успіх - це не просто пункт призначення, це подорож, в яку ми вирушаємо разом. Розпочніть свою захоплюючу кар'єрну пригоду з [Назва сайту для пошуку роботи]. Ми тут, щоб допомогти вам перетворити ваші прагнення на реальність. Ласкаво просимо на борт!</p>
+                        <button className='btn' onClick={() => navigate("/")}>Головна</button>
                     </section>
 
                     <section id="privacy-rules">
-                        <h1>Privacy Rules</h1>
-                        <p>Welcome to the Privacy Rules page of [Your Job Searching Site Name]. We prioritize the protection of your personal information and are committed to maintaining the confidentiality, integrity, and security of the data you entrust to us. This document outlines our privacy rules, detailing how we collect, use, and safeguard your information.</p>
-                        <h4> Information We Collect:</h4>
-                        <p>We collect information to enhance your job search experience and provide personalized services. This may include:</p>
+                        <h1>Правила конфіденційності</h1>
+                        <p>Ласкаво просимо на сторінку Правил конфіденційності. Ми надаємо пріоритет захисту вашої особистої інформації і зобов'язуємося зберігати конфіденційність, цілісність і безпеку даних, які ви нам довіряєте. У цьому документі викладено наші правила конфіденційності, де детально описано, як ми збираємо, використовуємо та захищаємо вашу інформацію.</p>
+                        <h4> Інформація, яку ми збираємо:</h4>
+                        <p>Ми збираємо інформацію, щоб покращити ваш досвід пошуку роботи та надати персоналізовані послуги. Це може включати в себе</p>
                         <ul>
-                            <li>Personal Information: Name, contact details, resume, and employment history.</li>
-                            <li>Usage Data: Information about your interactions with our platform, such as job searches and application history.</li>
-                            <li>Device Information: Data about your device, browser, and IP address for security and analytics purposes.</li>
+                            <li>Особиста інформація: Ім'я, контактні дані, резюме та історія працевлаштування.</li>
+                            <li>Дані про використання: Інформація про вашу взаємодію з нашою платформою, наприклад, про пошук роботи та історію заявок.</li>
+                            <li>Інформація про пристрій: Дані про ваш пристрій, браузер та IP-адресу для цілей безпеки та аналітики.</li>
                         </ul>
-                        <h4>How We Use Your Information:</h4>
+                        <h4>Як ми використовуємо вашу інформацію:</h4>
                         <ul>
-                            <li>Facilitate Job Searches: Match you with relevant job opportunities based on your skills and preferences.</li>
-                            <li>Improve User Experience: Tailor our platform to your needs and enhance your overall experience.</li>
-                            <li>Communication: Send you updates, job alerts, and relevant information about our services.</li>
+                            <li>Сприяти пошуку роботи: Підберемо для вас відповідні вакансії на основі ваших навичок та вподобань.</li>
+                            <li>Покращуйте користувацький досвід: Пристосуйте нашу платформу до ваших потреб і покращіть загальний досвід роботи.</li>
+                            <li>Комунікація: Надсилати вам оновлення, сповіщення про вакансії та відповідну інформацію про наші послуги.</li>
                         </ul>
                     </section>
 
                     <section id='cookie-policy'>
-                        <h1>Cookie Policy</h1>
-                        <h4>Cookie Policy Summary:</h4>
-                        <p>Welcome to our website's Cookie Policy summary. This brief overview is designed to help you understand how we use cookies and similar technologies to enhance your online experience. For more detailed information, please refer to our full Cookie Policy.</p>
-                        <h4>1. What are Cookies?</h4>
-                        <p>Cookies are small text files that are stored on your device when you visit a website. They help us improve the functionality and performance of our site by enabling certain features and providing analytics.</p>
-                        <h4>2. Types of Cookies We Use:</h4>
-                        <p><b>Essential Cookies:</b>Necessary for the basic functioning of the website.</p>
-                        <p><b>Functional Cookies:</b>Enhance user experience by remembering your preferences.</p>
-                        <p><b>Analytics Cookies:</b>Collect anonymous data for statistical analysis of website usage.</p>
-                        <p><b>Advertising Cookies:</b>Tailor advertising content to your interests.</p>
-                        <h4>3. Why We Use Cookies:</h4>
-                        <p>We utilize cookies to optimize your browsing experience, personalize content, analyze site traffic, and measure the effectiveness of our marketing efforts. Cookies also play a crucial role in maintaining the security and integrity of our website.</p>
-                        <h4>4. Third-Party Cookies:</h4>
-                        <p>Some cookies may be placed by third-party services that appear on our pages. These external services have their own privacy policies, and we encourage you to review them for a comprehensive understanding of their practices.</p>
-                        <h4>5. Managing Cookies:</h4>
-                        <p>You have the option to accept or decline cookies. Most web browsers automatically accept cookies, but you can usually modify your browser settings to decline them if you prefer. However, this may impact your ability to fully experience our website.</p>
-                        <h4>7. Updates to this Policy:</h4>
-                        <p>We may update our Cookie Policy to reflect changes in technology or legal requirements. We recommend checking this page periodically for any updates.
-                            For a more detailed explanation of our Cookie Policy, please read the full policy available on our website. If you have any questions or concerns, feel free to contact us. Thank you for choosing to explore our website.</p>
+                        <h1>Політика щодо файлів cookie</h1>
+                        <h4>Короткий виклад політики щодо файлів cookie:</h4>
+                        <p>Ласкаво просимо до короткого огляду Політики використання файлів cookie на нашому сайті. Цей короткий огляд покликаний допомогти вам зрозуміти, як ми використовуємо файли cookie та подібні технології для покращення вашого досвіду роботи в Інтернеті. Для більш детальної інформації, будь ласка, зверніться до нашої повної Політики використання файлів cookie.</p>
+                        <h4>1. Що таке файли cookie?</h4>
+                        <p>Файли cookie - це невеликі текстові файли, які зберігаються на вашому пристрої, коли ви відвідуєте веб-сайт. Вони допомагають нам покращити функціональність та продуктивність нашого сайту, вмикаючи певні функції та надаючи аналітику.</p>
+                        <h4>2. Типи файлів cookie, які ми використовуємо:</h4>
+                        <p><b>Основні Cookies:</b>Необхідні для базового функціонування веб-сайту.</p>
+                        <p><b>Функціональні Cookies:</b>Покращуйте користувацький досвід, запам'ятовуючи його уподобання.</p>
+                        <p><b>Аналітичні Cookies:</b>Збирати анонімні дані для статистичного аналізу використання веб-сайту.</p>
+                        <p><b>Рекламні Cookies:</b>Адаптуйте рекламний контент під свої інтереси.</p>
+                        <h4>3. Чому ми використовуємо файли cookie:</h4>
+                        <p>Ми використовуємо файли cookie для оптимізації вашого перегляду, персоналізації контенту, аналізу відвідуваності сайту та вимірювання ефективності наших маркетингових зусиль. Файли cookie також відіграють важливу роль у підтримці безпеки та цілісності нашого сайту.</p>
+                        <h4>4. Сторонні файли cookie:</h4>
+                        <p>Деякі файли cookie можуть розміщуватися сторонніми сервісами, які з'являються на наших сторінках. Ці зовнішні сервіси мають власну політику конфіденційності, і ми рекомендуємо вам ознайомитися з нею, щоб мати повне уявлення про їхню практику.</p>
+                        <h4>5. Керування файлами cookie:</h4>
+                        <p>Ви можете прийняти або відхилити файли cookie. Більшість веб-браузерів автоматично приймають файли cookie, але ви можете змінити налаштування свого браузера, щоб відхилити їх, якщо бажаєте. Однак це може вплинути на вашу здатність повною мірою користуватися нашим веб-сайтом.</p>
+                        <h4>7. Оновлення Політики:</h4>
+                        <p>Ми можемо оновлювати нашу Політику використання файлів cookie, щоб відобразити зміни в технологіях або законодавчих вимогах. Ми рекомендуємо періодично перевіряти цю сторінку на наявність оновлень.
+                            Для більш детального пояснення нашої Політики щодо файлів cookie, будь ласка, прочитайте повну версію політики, доступну на нашому веб-сайті. Якщо у вас виникли запитання або занепокоєння, не соромтеся звертатися до нас. Дякуємо, що вирішили вивчити наш веб-сайт.</p>
                     </section>
 
                     <section id='terms-and-use'>
-                        <h1>Terms and Use</h1>
-                        <p>By accessing and using our website, you agree to comply with and be bound by the following terms and conditions. The content on this site is provided for general informational purposes only, and we reserve the right to modify or discontinue any aspect of the website at any time. While we strive to ensure the accuracy and currency of the information presented, we make no representations or warranties of any kind, express or implied, regarding the completeness, accuracy, reliability, suitability, or availability of the website or the information, products, services, or related graphics contained on the website. Your use of any information or materials on this website is entirely at your own risk, and we shall not be liable for any loss or damage, direct or indirect, arising from such use. We encourage you to review our Privacy Policy and Cookie Policy to understand how we handle your personal information. By using this website, you agree to our terms and policies, and your continued use constitutes acceptance of any updates or changes to these terms. If you disagree with any part of these terms, please refrain from using our website.</p>
+                        <h1>Умови та використання</h1>
+                        <p>Отримуючи доступ до нашого веб-сайту та використовуючи його, ви погоджуєтеся дотримуватися наступних положень та умов. Вміст цього сайту надається лише для загальних інформаційних цілей, і ми залишаємо за собою право змінювати або припиняти роботу будь-якого аспекту веб-сайту в будь-який час. Хоча ми прагнемо забезпечити точність і актуальність представленої інформації, ми не даємо жодних запевнень або гарантій, явних або неявних, щодо повноти, точності, надійності, придатності або доступності веб-сайту або інформації, продуктів, послуг або пов'язаних з ними графічних зображень, що містяться на веб-сайті. Ви використовуєте будь-яку інформацію або матеріали на цьому веб-сайті виключно на власний ризик, і ми не несемо відповідальності за будь-які прямі або непрямі збитки, пов'язані з таким використанням. Ми рекомендуємо вам ознайомитися з нашою Політикою конфіденційності та Політикою використання файлів cookie, щоб зрозуміти, як ми обробляємо вашу особисту інформацію. Використовуючи цей сайт, ви погоджуєтеся з нашими умовами та політиками, і ваше подальше використання означає прийняття будь-яких оновлень або змін до цих умов. Якщо ви не згодні з будь-якою частиною цих умов, будь ласка, утримайтеся від використання нашого веб-сайту.</p>
                     </section>
 
                     <section id='job-rules'>
-                        <h1>JobPosting Rules</h1>
-                        <p>We aim to maintain a professional and inclusive environment for both employers and job seekers. To ensure a positive experience for all users, please adhere to the following job posting rules:</p>
-                        <h4>1. Accurate and Transparent Information:</h4>
-                        <p>Provide accurate and transparent details about the job opportunity. Clearly state the job title, responsibilities, qualifications, and other relevant information to help candidates make informed decisions.</p>
-                        <h4>2. Non-Discrimination Policy:</h4>
-                        <p>Job postings must comply with anti-discrimination laws and promote equal opportunities. Avoid language or requirements that may be discriminatory based on race, gender, age, disability, religion, or any other protected characteristic.</p>
-                        <h4>3. Legitimate Job Opportunities:</h4>
-                        <p>Post only genuine job opportunities. Misleading or fraudulent job postings are strictly prohibited. Ensure that the position aligns with applicable labor laws and regulations.</p>
-                        <h4>4. No Multi-level Marketing (MLM) or Pyramid Schemes:</h4>
-                        <p>Job postings related to multi-level marketing, pyramid schemes, or any other suspicious business models will not be accepted. We prioritize legitimate employment opportunities.</p>
-                        <h4>5. Clear Application Process:</h4>
-                        <p>Clearly outline the application process, including how candidates should apply, the required documents, and any specific instructions. Make it easy for candidates to understand and follow through.
+                        <h1>Правила розміщення вакансій</h1>
+                        <p>Ми прагнемо підтримувати професійне та інклюзивне середовище як для роботодавців, так і для пошукачів. Щоб забезпечити позитивний досвід для всіх користувачів, будь ласка, дотримуйтесь наступних правил розміщення вакансій:</p>                        <h4>1. Точна та прозора інформація:</h4>
+                        <p>Надайте точну та прозору інформацію про вакансію. Чітко сформулюйте назву посади, обов'язки, кваліфікацію та іншу відповідну інформацію, щоб допомогти кандидатам прийняти обґрунтоване рішення.</p>                        <h4>2. Політика недискримінації:</h4>
+                        <p>Оголошення про вакансії повинні відповідати антидискримінаційному законодавству та сприяти забезпеченню рівних можливостей. Уникайте формулювань або вимог, які можуть бути дискримінаційними за ознакою раси, статі, віку, інвалідності, релігії або будь-якої іншої захищеної характеристики.</p>                        <h4>3. Легальні можливості працевлаштування:</h4>
+                        <p>Опубліковуйте тільки справжні вакансії. Оманливі або шахрайські оголошення про вакансії суворо заборонені. Переконайтеся, що посада відповідає чинному трудовому законодавству та нормативним актам.</p>                        <h4>4. Ніякого багаторівневого маркетингу (MLM) або фінансових пірамід:</h4>
+                        <p>Не приймаються вакансії, пов'язані з багаторівневим маркетингом, фінансовими пірамідами або будь-якими іншими підозрілими бізнес-моделями. Ми надаємо перевагу легальним можливостям працевлаштування.</p>                        <h4>5. Чіткий процес подачі заявки:</h4>
+                        <p>Чітко окресліть процес подання заявки, зокрема, як кандидати мають подавати заявку, необхідні документи та будь-які конкретні інструкції. Зробіть так, щоб кандидатам було легко його зрозуміти та виконати.
 
                         </p>
                     </section>
 
                     <section id='contact-us'>
-                        <h1>Contact Us</h1>
-                        <p>If you have questions or concerns about your privacy on Jobsy, please contact our Privacy Team at <a href="">privacy@jobsy.com</a>.
+                        <h1>Зв'яжіться з нами</h1>
+                        <p>Якщо у вас є питання або занепокоєння щодо вашої конфіденційності, будь ласка, зв'яжіться з нашою командою з питань конфіденційності за адресою <a href="">Stepanchukdima13@gmail.com</a>.
 
-                            By using [Your Job Searching Site Name], you agree to our Privacy Rules. Your trust is important to us, and we are committed to safeguarding your privacy throughout your job search journey.</p>
-                    </section>
+                            Використовуючи даний сайт, ви погоджуєтеся з нашими Правилами конфіденційності. Ваша довіра важлива для нас, і ми зобов'язуємося захищати вашу конфіденційність протягом усього процесу пошуку роботи.</p>       </section>
                 </div>
             </div>
         </>

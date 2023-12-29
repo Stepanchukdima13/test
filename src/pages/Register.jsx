@@ -18,7 +18,7 @@ function Register() {
             <Navbar />
             <div className='register-page'>
                 <div className='register-container'>
-                    <h1>Register</h1>
+                    <h1>Реєстрація</h1>
                     <form action="post" className='form'>
 
                         <section className='form-section'>
@@ -28,7 +28,7 @@ function Register() {
                                 value={name}
                                 onChange={(e) => onNameChange(e)}
                             />
-                            <label htmlFor="name">Name</label>
+                            <label htmlFor="name">Ім'я</label>
                         </section>
 
                         <section className='form-section'>
@@ -48,7 +48,7 @@ function Register() {
                                 value={phone}
                                 onChange={(e) => onPhoneChange(e)}
                             />
-                            <label htmlFor="name">Phone</label>
+                            <label htmlFor="name">Телефон</label>
                         </section>
 
                         <section>
@@ -56,7 +56,7 @@ function Register() {
                                 type="checkbox"
                                 onChange={() => onTermsChange()}
                             />
-                            <span className='terms'> By creating an account I understand and agree Terms and Conditions.</span>
+                            <span className='terms'> Створюючи обліковий запис, я розумію та погоджуюсь з Умовами та положеннями.</span>
                         </section>
 
                         <button
@@ -64,7 +64,7 @@ function Register() {
                             className='btns'
                             disabled={!terms}
                         >
-                            Register
+                            Зареєструватись
                         </button>
                     </form>
                 </div>

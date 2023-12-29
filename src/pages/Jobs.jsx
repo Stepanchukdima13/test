@@ -54,9 +54,9 @@ function Jobs() {
             <Navbar />
             <SearchBar />
             <ul className='job-menu'>
-                <li onClick={() => showAllJobs()}>Job Feed</li>
-                <li> <Link to="/jobs/saved">Saved Jobs</Link></li>
-                <li> <Link to="/jobs/applied">Applied Jobs</Link></li>
+                <li onClick={() => showAllJobs()}>Список вакансій</li>
+                <li> <Link to="/jobs/saved">Збережені вакансії</Link></li>
+                <li> <Link to="/jobs/applied">Вакансії, на які ви відгукнулись</Link></li>
             </ul>
             <div className='job-container'>
                 <section className='job-section'>
@@ -91,15 +91,15 @@ function Jobs() {
 
                 <div className='job-detail'>
                     {detailJob == ""
-                        ? <h1> * Select a Job to see details</h1>
+                        ? <h1> * Виберіть вакансію, щоб побачити деталі</h1>
                         : <section className='job-detail-container'>
                             <section className='job-head'>
                                 <h3>{detailJob.title} </h3>
                                 <h4>{detailJob.company}</h4>
-                                <h4>{detailJob.location}, India</h4>
+                                <h4>{detailJob.location}, Ukraine</h4>
                             </section>
                             <section className='job-type buttons-list'>
-                                <h5>{detailJob.salary} per month</h5>
+                                <h5>{detailJob.salary} грн.</h5>
                                 <h5>{detailJob.details.type}</h5>
                             </section>
                             <section className='btn-section'>
@@ -107,7 +107,7 @@ function Jobs() {
                                     className='btn apply-btn'
                                     onClick={() => onApplyOfJob()}
                                 >
-                                    Apply Now
+                                    Відгукнутися
                                 </button>
                                 <button
                                     type='button'
@@ -116,12 +116,12 @@ function Jobs() {
                                         onSaveJob()
                                     }
                                 >
-                                    Save
+                                    Зберегти
                                 </button>
                             </section>
                             <div className='benefit-section'>
                                 <section>
-                                    <h1>Benefits</h1>
+                                    <h1>Що ми пропонуємо</h1>
                                     <ul className='benefit-list'>
                                         {detailJob.details.benefits.map((benefit) => {
                                             return <li key={nanoid()}>{benefit}</li>
@@ -129,7 +129,7 @@ function Jobs() {
                                     </ul>
                                 </section>
                                 <section>
-                                    <h1>Qualifications</h1>
+                                    <h1>Вимоги</h1>
                                     <ul className='benefit-list'>
                                         {detailJob.details.qualifications.map((benefit) => {
                                             return <li key={nanoid()}>{benefit}</li>
@@ -137,7 +137,7 @@ function Jobs() {
                                     </ul>
                                 </section>
                                 <section>
-                                    <h1>Resposblities</h1>
+                                    <h1>Буде плюсом</h1>
                                     <ul className='benefit-list'>
                                         {detailJob.details.resposblities.map((benefit) => {
                                             return <li key={nanoid()}>{benefit}</li>
@@ -145,15 +145,15 @@ function Jobs() {
                                     </ul>
                                 </section>
                                 <section>
-                                    <h1>Education</h1>
+                                    <h1>Освіта</h1>
                                     <ul className='benefit-list'>
                                         {detailJob.details.education.map((benefit) => {
                                             return <li key={nanoid()}>{benefit}</li>
                                         })}
                                     </ul>
                                 </section>
-                                <h1 className='details'>Experience : {detailJob.details.experience}</h1>
-                                <h1 className='details'>Schedule : {detailJob.details.schedule}</h1>
+                                <h1 className='details'>Досвід : {detailJob.details.experience}</h1>
+                                <h1 className='details'>Графік роботи : {detailJob.details.schedule}</h1>
                             </div>
                         </section>
 

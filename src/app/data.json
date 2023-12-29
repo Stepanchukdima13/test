@@ -2,8 +2,8 @@
     {
         "id": 1,
         "title": "Web Designer/Developer",
-        "salary": "10000 - 25000",
-        "location": "Kerela",
+        "salary": "1000 - 2500",
+        "location": "Vinnytsia",
         "company": "Websorbz Pvt Ltd",
         "details": {
             "resposblities": [
@@ -32,8 +32,8 @@
     {
         "id": 2,
         "title": "Python Developer",
-        "salary": "15000 - 20000",
-        "location": "Coimbatore",
+        "salary": "1500 - 2000",
+        "location": "Kyiv",
         "company": "jv Pvt Ltd",
         "details": {
             "resposblities": [
@@ -63,7 +63,7 @@
         "id": 3,
         "title": "Web Developer",
         "salary": "5000",
-        "location": "Coimbatore",
+        "location": "Lviv",
         "company": "Yhorbz Pvt Ltd",
         "details": {
             "resposblities": [
@@ -92,8 +92,8 @@
     {
         "id": 4,
         "title": "React Developer",
-        "salary": "20000 - 25000",
-        "location": "Bangalore",
+        "salary": "2000 - 2500",
+        "location": "Kyiv",
         "company": "Websorbz Pvt Ltd",
         "details": {
             "resposblities": [
@@ -122,8 +122,8 @@
     {
         "id": 5,
         "title": "node Developer",
-        "salary": "8000 - 15000",
-        "location": "Chennai",
+        "salary": "800 - 1500",
+        "location": "Uman",
         "company": "KJBK Ltd",
         "details": {
             "resposblities": [
@@ -152,8 +152,8 @@
     {
         "id": 6,
         "title": "node Developer",
-        "salary": "20000 - 25000",
-        "location": "Coimbatore",
+        "salary": "2000 - 2500",
+        "location": "Kyiv",
         "company": "Rock Pvt Ltd",
         "details": {
             "resposblities": [
@@ -182,8 +182,8 @@
     {
         "id": 7,
         "title": "React Developer",
-        "salary": "20000 - 25000",
-        "location": "Bangalore",
+        "salary": "2000 - 2500",
+        "location": "Vinnytsia",
         "company": "Koda Pvt Ltd",
         "details": {
             "resposblities": [
@@ -212,8 +212,8 @@
     {
         "id": 8,
         "title": "Python Developer",
-        "salary": "10000 - 13000",
-        "location": "Chennai",
+        "salary": "1000 - 1300",
+        "location": "Vinnytsia",
         "company": "Websorbz Pvt Ltd",
         "details": {
             "resposblities": [
@@ -242,8 +242,8 @@
     {
         "id": 9,
         "title": "AWS Developer",
-        "salary": "150000 - 250000",
-        "location": "Bangalore",
+        "salary": "15000 - 25000",
+        "location": "Vinnytsia",
         "company": "Websorbz Pvt Ltd",
         "details": {
             "resposblities": [
@@ -272,8 +272,8 @@
     {
         "id": 10,
         "title": "Full Stack Developer",
-        "salary": "100000 - 150000",
-        "location": "Chennai",
+        "salary": "10000 - 15000",
+        "location": "Vinnytsia",
         "company": "Websorbz Pvt Ltd",
         "details": {
             "resposblities": [
@@ -302,8 +302,8 @@
     {
         "id": 11,
         "title": "React Developer",
-        "salary": "20000 - 25000",
-        "location": "Chennai",
+        "salary": "2000 - 2500",
+        "location": "Vinnytsia",
         "company": "Websorbz Pvt Ltd",
         "details": {
             "resposblities": [
@@ -333,7 +333,7 @@
         "id": 12,
         "title": "React Developer",
         "salary": "20000 - 25000",
-        "location": "Coimbatore",
+        "location": "Kyiv",
         "company": "Websorbz Pvt Ltd",
         "details": {
             "resposblities": [
@@ -363,7 +363,7 @@
         "id": 13,
         "title": "React Developer",
         "salary": "20000 - 25000",
-        "location": "Bangalore",
+        "location": "Kyiv",
         "company": "Websorbz Pvt Ltd",
         "details": {
             "resposblities": [
@@ -393,7 +393,7 @@
         "id": 14,
         "title": "React Developer",
         "salary": "20000 - 25000",
-        "location": "Bangalore",
+        "location": "Kyiv",
         "company": "Websorbz Pvt Ltd",
         "details": {
             "resposblities": [

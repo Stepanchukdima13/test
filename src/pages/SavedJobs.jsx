@@ -14,7 +14,7 @@ function SavedJobs() {
             <div className="saved-post">
                 {
                     state.savedJobs.length == 0
-                        ? <h1 className='no-job'>No jobs has been saved</h1>
+                        ? <h1 className='no-job'>У вас немає збережених вакансій</h1>
                         : state.savedJobs.map((job) => {
                             return <section
                                 className='single-post'

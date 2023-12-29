@@ -16,19 +16,19 @@ function SearchBar() {
         <div className='search-bar'>
             <div className='search-form'>
                 <section>
-                    <label htmlFor="search">Job Title</label>
+                    <label htmlFor="search">Опис вакансії</label>
                     <input
                         type="text"
-                        placeholder='Enter job role'
+                        placeholder='Характеристики'
                         value={job}
                         onChange={(e) => onJobChange(e)}
                     />
                 </section>
                 <section>
-                    <label htmlFor="location">Job Location</label>
+                    <label htmlFor="location">Локація</label>
                     <input
                         type='text'
-                        placeholder='Job location / Any'
+                        placeholder='Локація'
                         value={location}
                         onChange={(e) => onLocationChange(e)}
                     />

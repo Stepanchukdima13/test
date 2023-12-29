@@ -24,7 +24,7 @@ function SingleJob({ job, button }) {
             <section className='job-head'>
                 <h3>{job.title} </h3>
                 <h4>{job.company}</h4>
-                <h4>{job.location}, India</h4>
+                <h4>{job.location}, Ukraine</h4>
             </section>
             <section className='job-type'>
                 <h5>{job.salary} per month</h5>
@@ -37,7 +37,7 @@ function SingleJob({ job, button }) {
             </ul>
             <section>
                 {button
-                    ? <button className="btn" onClick={() => onDelete()}> Unsave</button>
+                    ? <button className="btn" onClick={() => onDelete()}> Не зберігати</button>
                     : null
                 }
             </section>

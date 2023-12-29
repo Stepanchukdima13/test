@@ -5,16 +5,16 @@ function Locations() {
     return (
         <div className='location-container'>
             <section>
-                <p>Coimbatore</p>
+                <p>Vinnytsia</p>
             </section>
             <section>
-                <p>Chennai</p>
+                <p>Kyiv</p>
             </section>
             <section>
-                <p>Kerela</p>
+                <p>Lviv</p>
             </section>
             <section>
-                <p>Bangalore</p>
+                <p>Uman</p>
             </section>
         </div>
     );

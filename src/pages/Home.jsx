@@ -18,13 +18,13 @@ function Home() {
             <Navbar />
             <div className='home-container'>
                 <div>
-                    <h1 className='search-head'>" One Search, millions of jobs "</h1>
+                    <h1 className='search-head'>" Один пошук, мільйони вакансій! "</h1>
                 </div>
                 <SearchBar />
                 <div className='welcome-section'>
                     <section>
-                        <p>Our powerful   matching technology will send job matches right to your inbox</p>
-                        <button type='button' className='btn' onClick={() => navigate("/register")}>Sign up</button>
+                        <p>Наша потужна технологія підбору вакансій надсилатиме відповідні вакансії прямо на вашу поштову скриньку</p>
+                        <button type='button' className='btn' onClick={() => navigate("/register")}>Зареєструватись</button>
                     </section>
                     <section>
                         <img src={welcomeImg} alt="welcome image" className='welcome-img' />
@@ -32,24 +32,24 @@ function Home() {
                 </div>
                 <div className='summary'>
                     <div>
-                        <h1>Create a Jobsy Profile</h1>
+                        <h1>Створити профіль</h1>
                     </div>
                     <div className='summary-sections'>
                         <section>
                             <img src={saveIcon} alt="save icon" />
-                            <h3>Save your favourite jobs  </h3>
+                            <h3>Додати до улюблених</h3>
                         </section>
                         <section>
                             <img src={resume} alt="resume icon" />
-                            <h3>Upload your documents</h3>
+                            <h3>Завантажити Резюме</h3>
                         </section>
                         <section>
                             <img src={searchResume} alt="search resume icon" />
-                            <h3>Apply for jobs</h3>
+                            <h3>Завантажити вакансію</h3>
                         </section>
                         <section>
                             <img src={correct} alt="correct icon" />
-                            <h3>Get Hired</h3>
+                            <h3>Отримати роботу</h3>
                         </section>
                     </div>
                 </div>

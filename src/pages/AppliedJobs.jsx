@@ -15,7 +15,7 @@ function AppliedJobs() {
             <div className="saved-post">
                 {
                     state.appliedJob.length == 0
-                        ? <h1 className='no-job'>You haven't applied for any jobs</h1>
+                        ? <h1 className='no-job'>Ви не вибрали жодної вакансії</h1>
                         : state.appliedJob.map((job) => {
                             return <section
                                 className='single-post'

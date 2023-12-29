@@ -10,24 +10,24 @@ function Footer() {
 
             <div className='footer-section'>
                 <section>
-                    <h4>For Job Seekers</h4>
-                    <p><Link to="/jobs">Search Jobs</Link></p>
-                    <p><Link to="/jobs">Browse Jobs</Link></p>
-                    <p><Link to="/register">Create Free Account</Link></p>
-                    <p><Link to="">Support</Link></p>
+                    <h4>Для користувачів</h4>
+                    <p><Link to="/jobs">Пошук роботи</Link></p>
+                    <p><Link to="/jobs">Упорядкувати пошук</Link></p>
+                    <p><Link to="/register">Створити безкоштовний аккаунт</Link></p>
+                    <p><Link to="">Підтримка</Link></p>
                 </section>
                 <section>
-                    <h4>Partner With Us</h4>
-                    <p><Link to="">Partners</Link></p>
-                    <p><Link to="">Sponsored Reach</Link></p>
+                    <h4>Партнери</h4>
+                    <p><Link to="">Партнери</Link></p>
+                    <p><Link to="">Спонсори</Link></p>
                 </section>
                 <section>
-                    <h4>Company</h4>
-                    <p><Link to="/policy">About Us</Link></p>
+                    <h4>Компанія</h4>
+                    <p><Link to="/policy">Про нас</Link></p>
                 </section>
                 <section>
-                    <h4>Contact Us</h4>
-                    <p><Link to="/policy">Email Us</Link></p>
+                    <h4>Зв`язок</h4>
+                    <p><Link to="/policy">Email</Link></p>
                     {/* <section className='social-media-icons'>
                             <img src={xIcon} alt="social media Icons" />
                             <img src={fbIcon} alt="social media Icons" />
@@ -37,12 +37,12 @@ function Footer() {
             </div>
             <div className='policy-section'>
                 <section>
-                    <p><Link to="/policy">Privacy Policy</Link></p>
-                    <p><Link to="/policy">Terms and Use</Link></p>
-                    <p><Link to="/policy">Job Posting Rules</Link></p>
-                    <p><Link to="/policy">Cookie Policy</Link></p>
+                    <p><Link to="/policy">Політика приватності</Link></p>
+                    <p><Link to="/policy">Правила приватності</Link></p>
+                    <p><Link to="/policy">Правила пошуку</Link></p>
+                    <p><Link to="/policy">Cookie</Link></p>
                 </section>
-                <p>Copyright © 2023 Jobsy</p>
+                <p> Степанчук Дмитро 1СП-20Б</p>
             </div>
 
         </footer>
