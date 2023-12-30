@@ -1,8 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import xIcon from "../assets/x.png"
-import fbIcon from "../assets/facebook.png"
-import wpIcon from "../assets/whatsapp.png"
 
 function Footer() {
     return (
@@ -28,11 +25,7 @@ function Footer() {
                 <section>
                     <h4>Зв`язок</h4>
                     <p><Link to="/policy">Email</Link></p>
-                    {/* <section className='social-media-icons'>
-                            <img src={xIcon} alt="social media Icons" />
-                            <img src={fbIcon} alt="social media Icons" />
-                            <img src={wpIcon} alt="social media Icons" />
-                    </section> */}
+
                 </section>
             </div>
             <div className='policy-section'>
